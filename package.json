@@ -1,0 +1,48 @@
+{
+  "name": "MLCloudcode",
+  "version": "0.2.0",
+  "description": "Leapas Cloudcode Node.js SDK.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leancloud/leanengine-node-sdk"
+  },
+  "dependencies": {
+    "body-parser": "1.9.0",
+    "connect": "3.2.0",
+    "cookies": "0.5.0",
+    "debug": "2.0.0",
+    "iconv-lite": "^0.4.8",
+    "on-headers": "1.0.0",
+    "node-uuid": "^1.4.3",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "blanket": "1.1.6",
+    "expect.js ": "0.2.0",
+    "express": "4.9.7",
+    "mocha": "2.3.3",
+    "should": "3.3.2",
+    "supertest": "0.14.0"
+  },
+  "keywords": [
+    "Leapas"
+  ],
+  "config": {
+    "blanket": {
+      "pattern": "//^((?!(node_modules|test)).)*$/"
+    }
+  },
+  "license": "MIT",
+  "author": {
+    "name": "czhou",
+    "email": "czhou.maxleap.com"
+  },
+  "bugs": {
+    "url": "https://github.com/leancloud/leanengine-node-sdk/issues"
+  },
+  "homepage": "https://github.com/leancloud/leanengine-node-sdk",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha -R spec --timeout=10000",
+    "test-cov": "node_modules/mocha/bin/mocha --require blanket -R html-cov > coverage.html"
+  }
+}
