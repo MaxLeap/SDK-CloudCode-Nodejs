@@ -1,6 +1,6 @@
 {
   "name": "mlcloudcode",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Leapas Cloudcode Node.js SDK.",
   "repository": {
     "type": "git",
@@ -16,15 +16,15 @@
     "iconv-lite": "^0.4.8",
     "on-headers": "1.0.0",
     "node-uuid": "^1.4.3",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "supertest":"0.14.0"
   },
   "devDependencies": {
     "blanket": "1.1.6",
     "expect.js ": "0.2.0",
     "express": "4.9.7",
     "mocha": "2.3.3",
-    "should": "3.3.2",
-    "supertest": "0.14.0"
+    "should": "3.3.2"
   },
   "keywords": [
     "Leapas"
