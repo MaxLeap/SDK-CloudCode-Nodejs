@@ -1,12 +1,12 @@
-# MLCloudcode
+# mlcloudcode
 
 
-MLCloudcode Node.js SDK
+mlcloudcode Node.js SDK
 
 ## 安装
 
 ```bash
-npm install MLCloudcode
+npm install mlcloudcode
 ```
 
 ## 文档
